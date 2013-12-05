@@ -1,6 +1,16 @@
-$body-bg:		#2980b9;
-$navbar-default-bg:	#2c3e50;
-$navbar-default-link-color:	#2980b9;
-$navbar-default-border:	lighten($navbar-default-bg, 6.5%);
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps);
+@import url(http://fonts.googleapis.com/css?family=Allan);
+
+$body-bg:						#2980b9;
+$font-family-sans-serif:		'Oleo+Script+Swash+Caps', 'Allan','Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-default-bg:				#2c3e50;
+$navbar-default-link-color:		#2980b9;
+$navbar-default-border:			lighten($navbar-default-bg, 6.5%);
 $navbar-default-link-hover-color: #bdc3c7;
+$navbar-default-brand-color: 	#e67e22;
 @import 'bootstrap';
+
+.navbar-brand {
+	font-weight: bold;
+	
+}
